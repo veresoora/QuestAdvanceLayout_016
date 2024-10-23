@@ -111,7 +111,7 @@ fun DetailSurat(
                 modifier = Modifier.weight(0.8f))
 
             Text(text = ":",
-                modifier = Modifier.weight(1f))
+                modifier = Modifier.weight(0.2f))
 
             Text(text = isinya,
                 modifier = Modifier.weight(2f))
