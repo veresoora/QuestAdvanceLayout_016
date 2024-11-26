@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 
 @Preview(showBackground = true)
 @Composable
-fun PlayActivity(modifier: Modifier = Modifier) {
+fun PlayActivity() {
     Column(modifier = Modifier.fillMaxSize()) {
         HeaderSection()
         Text(text = "Kepada Yth,",
