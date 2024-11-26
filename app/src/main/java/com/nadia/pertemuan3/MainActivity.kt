@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    PlayActivity(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
